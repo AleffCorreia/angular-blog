@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SmallCardComponent {
 
+  @Input()
+  photoCover: string = '';
+  now : Date = new Date;
+  cardDate: string = `${this.now.getDate()}/${this.now.getMonth()}/${this.now.getFullYear()}`
+  @Input()
+  cardTitle: string = '';
 }
