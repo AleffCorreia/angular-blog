@@ -25,6 +25,7 @@
 
 .small-card_title h1{
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .container_small-card > hr{

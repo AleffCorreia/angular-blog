@@ -13,4 +13,6 @@ export class SmallCardComponent {
   cardDate: string = `${this.now.getDate()}/${this.now.getMonth()}/${this.now.getFullYear()}`
   @Input()
   cardTitle: string = '';
+  @Input()
+  id: string = '0';
 }

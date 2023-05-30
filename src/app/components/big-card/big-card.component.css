@@ -26,5 +26,6 @@
 }
 
 .big-card_description{
-    color: gray
+    color: gray;
+    cursor: pointer;
 }
